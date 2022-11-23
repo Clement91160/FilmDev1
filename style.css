@@ -33,3 +33,19 @@ li {
 ul {
   color: blue;
 }
+
+@media (min-width: 584px) {
+  body {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-top: auto;
+    gap: 20px;
+  }
+
+  img {
+    order: -1;
+  }
+}
